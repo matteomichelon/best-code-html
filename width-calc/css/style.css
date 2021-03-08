@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-grey {
+    background-color: #f3f5fa;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.sponsors {
+    list-style-type: none;
+    text-align: center;
+}
+
+.sponsors li {
+    display: inline-block;
+    width: calc( ( 100% / 6) - 5px);
+    padding: 0 10px;
+}
+
+.sponsors li img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+    .sponsors li {
+        width: calc( ( 100% / 2) - 5px);
+    }
+}
