@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    /* test */
+    background-color: rosybrown;
+}
+
+.image {
+    flex-basis: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.test{
+    background-color: royalblue;
+    padding: 5px;
+}
