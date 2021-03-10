@@ -1,0 +1,62 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+body {
+    /* test */
+    background-color: aqua;
+    color: white;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+/* MAIN */
+
+main {
+    height: calc( 100% - 100px);
+    width: 100%;
+    /* test */
+    background-color: brown;
+}
+
+/* nav */
+
+nav {
+    float: left;
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    /* test */
+    background-color: teal;
+}
+
+/* main-right */
+
+.main-right {
+    float: left;
+    width: calc( 100% - 200px);
+    height: 100%;
+    overflow-y: auto;
+    /* test */
+    background-color: white;
+    color: black;
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    /* test */
+    background-color: blueviolet;
+}
