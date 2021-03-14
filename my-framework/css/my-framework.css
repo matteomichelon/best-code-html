@@ -6,11 +6,11 @@
 
 /* Small devices (tablets, 768px and up) */
 
-@media screen and (min-width: 769px) and (max-width: 991 px) {}
+@media screen and (min-width: 769px) and (max-width: 991px) {}
 
 /* Medium devices (desktops, 992px and up) */
 
-@media screen and (min-width: 992 px) and (max-width: 1199px) {}
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
 
 /* Large devices (large desktops, 1200px and up) */
 

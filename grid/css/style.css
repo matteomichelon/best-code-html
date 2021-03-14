@@ -1,0 +1,91 @@
+nav {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    /* 
+    if we did this instead of the template it would be a problem:
+    grid-auto-flow: column;
+    */
+    font: 120% system-ui;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: 900;
+}
+
+/* Flex Center */
+
+.flex-center {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid red;
+}
+
+footer .flex-center {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    font-size: 12px;
+    border: 10px solid black;
+}
+
+.flex-center-top {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    height: auto;
+    padding-top: 5px;
+    padding: 10px;
+}
+
+#play-hover {
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#play-hover:hover {
+    font-size: 30px;
+}
+
+footer .flex-center-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 100%;
+    padding-top: 15px;
+}
+
+.flex-center-container .bar-top i {
+    left: 95%;
+    top: -3px;
+}
+
+@media screen and (max-width: 768px) {
+    .bar-container, .flex-center-top {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:991px) {
+    .bar-container {
+        width: 75%;
+    }
+    .flex-center-top {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .bar-container {
+        width: 80%;
+    }
+}
